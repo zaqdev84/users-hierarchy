@@ -1,0 +1,31 @@
+{
+  "name": "zaqdev84/users-hierarchy",
+  "homepage": "https://github.com/zadev84/users-hierarchy",
+  "description": "Users Hierarchy",
+  "type": "library",
+  "authors": [
+    {
+      "name": "ZAQ",
+      "email": "zeeshanaqeel84@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "bluem/tree": "~2.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "UsersHierarchy\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7",
+    "mp091689/dump-die": "dev-master"
+  }
+}
